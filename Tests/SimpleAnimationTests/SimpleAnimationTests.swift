@@ -1,15 +1,8 @@
 import XCTest
 @testable import SimpleAnimation
 
-final class SimpleAnimationTests: XCTestCase {
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct
-        // results.
-        XCTAssertEqual(SimpleAnimation().text, "Hello, World!")
-    }
-
-    static var allTests = [
-        ("testExample", testExample),
-    ]
+class UIView_SimpleAnimationTest: XCTestCase {
+  func testNeedToWriteTests() {
+    XCTAssert(true);
+  }
 }
